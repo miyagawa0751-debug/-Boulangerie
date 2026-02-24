@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>町のパン屋さん Boulangerie</title>
+<meta name="description" content="町のパン屋さん Bourangerieのホームページです。">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<!--jquery inview-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<!-- Swiper.jsのCSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<!-- Swiper.jsのJS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<meta name="robots" content="noindex" />
+
+</head>
+    
+<body>
+ <div id="allpage">
+   <header>
+    <!--<style>
+        .container {
+        width: 80vw; /* ウィンドウ幅の80%に設定 */
+        height: 50vh; /* ウィンドウ高さの50%に設定 */
+        background-color: lightblue;
+        margin: auto; /* ウィンドウ中央に配置 */
+    }
+    </style> -->
+    
+  <div class="header-logo">
+     <div class="logo">
+        <img src="img/header log.png" alt="Boulangerie" class="responsive-logo">
+     </div>
+
+  <div class="nav-container">
+   <div class="nav">
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+         ☰
+      </button>
+     <ul class="nav-list">
+        <li><a href="#Top">トップ</a></li>
+        <li><a href="#About">Bourangerieについて</a></li>
+        <li><a href="#Menu">おすすめ品</a></li>
+        <li><a href="#Accsess">営業日・アクセス</a></li>
+        <li class="social-list-instagram">
+         <a href="#Top">
+            <img src="img/Instagram_Glyph_Black.png" alt="Instagram" style="width: 20px; height: 20;">
+         </a>
+        </li>
+        <li class="social-list-X">
+         <a href="#Top">
+            <img src="img/logo-black.png" alt="X" style="width: 20px; height: 20;">
+         </a>
+        </li>
+     </ul>
+    </nav> 
+   </div>
+  </div>
+  </header>
+
+   <main>
+   <section class="firstview">
+    <div class="main">
+      <div class="slider-container">
+       <div class="image-container">
+       </div>
+   </section>
+        
+          <!-- ナビゲーションコンテナ -->
+            <!--<div class="nav-container"></div>
+          </div>
+
+          <div class="pagetop">
+          <a class="pagetop-btn" href="#Top"></a>
+      </div>-->
+
+    <section id="About">
+      <div class="section">
+        <div class="p-text">
+         <div class="txtBox inview fadeIn_Up">
+        <h2>Bourangerieについて</h2>
+        <h3>”無添加パン”へのこだわり</h3>
+        <p>当店は、お子様から大人まで安心して美味しいパンを召し上がっていただくため、全て無添加で作り上げております。<br>
+           無添加とは、保存料や着色料を一切使用せず自然そのままの味を楽しむことができるものとなっております。<br>
+           そのため、パンの美味しさを最大限に味わうことができます。<br>
+           また、当店ではイートインスペースのご用意もありますのでお好きな飲み物と一緒にお楽しみください。
+        </p> 
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <section>
+     <div class="swiper">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide">
+           <img src="img/sausage.jpg" width="600" height="400" alt="ソーセージパン">
+         </div>
+         <div class="swiper-slide">
+           <img src="img/french bread.jpg" width="600" height="400" alt="フランスパン">
+         </div>
+         <div class="swiper-slide">
+           <img src="img/melon bread-list1.jpg" width="600" height="400" alt="メロンパン">
+         </div>
+       </div>
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+     </div>
+    </section>
+
+    <section id="Menu">
+   <div class="menu inview fadeIn_Up">
+        <h2>おすすめ品</h2>
+    <div class="menu inview fadeIn_Up">
+     <div class="flex">
+      <div class="item">
+        <img src="img/bread.jpg" width="700" height="467" ait="食パンの画像">
+      </div>
+      <div class="item">
+        <h3>食パン</h3>
+        <h4>一斤 230円</h4>
+        <h4>ハーフサイズ 150円</h4>
+        <p>焼き立てパンのためふわふわ食感が楽しめる食パンです。<br>
+           また、食パン本来の甘さをより良く感じられるよう、こだわって仕上げているためそのままでも美味しく召しあがることができます。<br>
+           是非お買い求めください。
+        </p>
+      </div>
+     </div>
+    </div>
+   </div>
+     
+   <div class="menu inview fadeIn_Up">
+    <div class="flex">
+     <div class="item">
+        <img src="img/melon bread-list2.jpg" width="700" height="467" ait="メロンパンの画像"> 
+     </div>
+      <div class="item">
+        <h3>メロンパン</h3>
+        <h4>一個 150円</h4>
+         <p>サクサク食感とふわふわとした中身の美味しさにこだわった<br>
+            メロンパンとなっております。<br>
+            お子様にも大人気のメロンパン。是非、当店のメロンパンを<br>
+            味わってお楽しみください
+         </p>
+      </div>
+    </div>
+   </div>
+
+   <div class="menu inview fadeIn_Up">
+    <div class="flex">
+     <div class="item">
+        <img src="img/curry bread.jpg" width="700" height="467" ait="カレーパンの画像">
+     </div>
+      <div class="item">
+        <h3>カレーパン</h3>
+        <h4>一個 150円</h4>
+         <p>辛さ控えめのカレーとザクザクとした衣にこだわったカレーパンとなっております。<br>
+            辛さが控えめなので辛いのが苦手な方にも美味しく召し上がることができます。<br>
+            是非、ご家族やご友人とともに当店のカレーパンをお楽しみください。
+         </p>
+      </div>
+    </div>
+   </div>
+    
+    </section>
+
+   
+    <section id="Accsess">
+     <div class="Accsess inview fadeIn_Up">
+      <div class="Accsess">
+        <h2>営業日・アクセス</h2>
+       <div class="Accsess inview fadeIn_Up">
+         <div class="Accsess-image">
+           <img class="access-img" src="img/access.png" alt="営業日・アクセス画像">
+         </div>
+          <div class="map inview fadeIn_Up">
+           <img src="img/access-2.png" alt="地図">
+          </div>
+          <div class="Accsess-image">
+           <img src="img/TEL.png" width="900" height="900" alt="電話番号">
+          </div>
+       </div>
+     </div>
+    </div>
+   </section>
+      
+   </main>
+
+   <footer>
+     <div class="footer">
+      <div class="footer-menu">
+         <ul class="footer-menu-list">
+            <li><a href="#Top">トップ</a></li>
+            <li><a href="#About">Bourangerieについて</a></li>
+            <li><a href="#Menu">おすすめ品</a></li>
+            <li><a href="#Accsess">営業日・アクセス</a></li>
+         </ul>
+      </div>
+     </div>  
+   </footer>
+   <script src="js/custom.js"></script>
+</body>
+
+</html>

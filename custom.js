@@ -14,15 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-//document.addEventListener("DOMContentLoaded", () => {
-    //const menuToggle = document.querySelector(".menu-toggle");
-    //const navList = document.querySelector(".nav-list");
-
-    //menuToggle.addEventListener("click", () => {
-        //navList.classList.toggle("active"); // メニューの表示・非表示を切り替え
-    //});
-//});
-
 document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.querySelector(".menu-toggle");
     const navList = document.querySelector(".nav-list");
